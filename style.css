@@ -1,0 +1,37 @@
+.p-class-red {
+    color: blue;
+!important;
+}
+
+#p-red {
+    color: blueviolet;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    border: 10px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    transition: all .5s linear;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 5);
+}
+
+.btn:hover {
+    transition: all .5s linear;
+    background: black;
+    color: white;
+}
+/*
+style na dive ves 1000
+id ves 100
+class ves 10
+div ves 1
+*/
