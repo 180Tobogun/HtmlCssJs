@@ -10,36 +10,43 @@
           minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>First lesson</title>
+    <link rel="stylesheet" href="style-lesson.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<img src="" alt="">
+<img src="logo.png" alt="">
 <h1>Course html basics</h1>
 
 <nav>
-    <a href="">Home</a>
-    <a href="">Registration</a>
-    <a href="">Headings</a>
-    <a href="">Types of list</a>
-    <a href="index.html#form">Form</a>
+    <a href="index.html#home">Home</a>
+    <a href="index.html#form">Registration</a>
+    <a href="index.html#headings">Headings</a>
+    <a href="index.html#list-types">Types of list</a>
+    <a href="index.html#tables">Tables</a>
 </nav>
 <hr>
 
-<article>
-    <div><b>Lorem is a long established</b> fact that a reader will be distracted by the readable content of a page when
-        looking at its
-        layout. <strong>The point of using</strong> Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to
-        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
-        web
-        page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
-        web
-        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-        purpose (injected humour and the like).
+<div id="home">
+    <article>
+        <div><b>Lorem is a long established</b> fact that a reader will be <i>distracted by the readable content</i> of
+            a page when
+            looking at its
+            layout. <strong>The point of using</strong> Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to
+            using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+            and
+            web
+            page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
+            many
+            web
+            sites still in their infancy. <a href="">Various versions have evolved over the years</a> , <s>sometimes by
+                accident, sometimes on
+                purpose (injected humour and the like).</s>
 
-    </div>
-</article>
+        </div>
+    </article>
+</div>
 
 <div id="form">
     <form action="">
@@ -83,16 +90,16 @@
     tempora. Adipisci cumque cupiditate ea est hic impedit ipsam libero magni natus obcaecati quas reiciendis ut,
     veniam.
 </p>
-
-<h2>123</h2>
-<h3>123</h3>
-<h4>123</h4>
-<h5>123</h5>
-<h6>123</h6>
-
+<div id="headings">
+    <h2>123</h2>
+    <h3>123</h3>
+    <h4>123</h4>
+    <h5>123</h5>
+    <h6>123</h6>
+</div>
 <hr>
 
-<div>
+<div id="list-types">
     <div>
         <h3>unordered list</h3>
         <ul>
@@ -152,12 +159,12 @@
 <hr>
 
 <div>
-    <img src="" alt="">
+    <img src="fruits.jpg" alt="">
 </div>
 
 <hr>
 
-<div>
+<div id="tables">
     <h3>tables</h3>
 
     <table>
